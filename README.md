@@ -20,11 +20,12 @@ Primary Features:
 
 Secondary Requirements:
 
-1. The system should support data versioning, so that users can return to any version of the files.
+1. We need ACID-ity. It should guarantee atomicity, consistency, isolation and durability of all file operations. 
+Our system should support the editing offline. 
+2. Users should be able to add / delete / modify files while offline, and all their changes should be synchronized to remote servers and other online devices as soon as they come online.
 
 Extended Features:
-Analytics; e.g., how many times a redirection happened?
-Our service should also be accessible through REST APIs by other services.
+1. Versioning
 
 **TO DO : Follow the below framweork to design System. Mandatory upload of hand drawn photos of design.**
 
